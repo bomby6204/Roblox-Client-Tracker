@@ -376,6 +376,7 @@ AllWatches
 AllWindows
 Alphabetical
 AlphaBufferSize
+AlsoSanitizeContentIdInserted
 AlternateName
 AlternateScalingForAccessories
 AlternateScalingForNativeParts
@@ -4143,7 +4144,6 @@ CloudReloadPrompt
 CloudTablesAccountAgeMinimum
 CloudTablesEnforceAccountAge
 CloudTablesPhase2_IgnoreEmptyManifestReport
-CloudTablesPhase2_LocaleManifestFixes1
 CloudTablesPhase2_TrackLocaleFetchCallsites
 CloudTablesPhase2_UnpublishedStudioRequestFix
 CloudTablesPhase2_WaitForSourceFix
@@ -9674,7 +9674,6 @@ LocalizationServiceAsyncLoadingHttpError_Manifest
 LocalizationServiceAsyncLoadingHttpError_WebData
 LocalizationServiceContentLoadErrorHundredthsPercentage
 LocalizationServiceFailure
-LocalizationServiceInvalidAutoLocAssetId
 LocalizationServiceInvalidHandle
 LocalizationServiceSetPropertyError
 LocalizationServiceTranslationCountBugFix
@@ -12228,6 +12227,7 @@ PlaceConfigLoaded
 PlaceCopyAction
 PlaceCreatorsListPage
 PlaceFilesGameSettingsSerialization4
+PlaceFilesGameSettingsSerializationLoadSave
 PlaceFilter
 PlaceFromCommandLineParams
 Placeholder
@@ -16014,8 +16014,10 @@ StudioClose
 StudioCollectGPUInfo
 StudioColorVerb
 StudioCookieConstraintUrlFragment
+StudioCorrectSaveOnTurnOn
 StudioCorrectTCSaveMessage2
 StudioCrashLocation
+StudioDataModelLoadSaveRefactorForMassUpdate
 StudioDebugBTID
 StudioDebugger
 StudioDebuggerFocusAtScreenCenter
@@ -16056,6 +16058,7 @@ StudioFixMultipleAssetsImportLogic
 StudioFixQtScrollbarEvents
 StudioFixRestartLogic
 StudioFixShareIcon
+StudioFixStandalonePlaySoloStop
 StudioFlagEditor
 StudioFlagEditorDialog
 StudioForcelibGLESv2D3D9
@@ -16090,6 +16093,7 @@ StudioLastActions
 StudioLocalAssetsEnabled
 StudioLocalizationEnableAnalytics
 StudioLocalizationGameSettings
+StudioLocalizationNoDeleteWhenUpdating
 StudioLocalizationPluginButtonAnalytics
 StudioLocalizationPluginCleanGameIdLogic
 StudioLocalizationPluginV2
@@ -16254,7 +16258,6 @@ StudioUseAuthLogoutEndPoint
 StudioUseDynamicLocTable
 StudioUseForceParamsToForceLocales
 StudioUseNewToolbox
-StudioUseQtDialogForSave
 StudioUseQtTranslators
 StudioUserAction
 StudioUseRestartController2
