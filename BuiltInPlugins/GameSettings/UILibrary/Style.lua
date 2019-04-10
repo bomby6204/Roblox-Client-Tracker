@@ -21,6 +21,9 @@ Style.Defaults = {
 
 	shadowColor = Color3.new(),
 	shadowTransparency = Color3.new(),
+
+	dimmerTextColor = Color3.new(),
+	separationLineColor = Color3.new(),
 }
 
 -- A function that checks to see if there are any missing or

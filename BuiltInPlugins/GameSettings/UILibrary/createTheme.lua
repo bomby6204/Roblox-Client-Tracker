@@ -69,11 +69,24 @@ return function(style, overrides)
 		},
 	}
 
+    local timelineTick = {
+        font = style.font,
+
+        lineColor = style.separationLineColor,
+        textColor = style.dimmerTextColor,
+    }
+
+    local timeline = {
+    	barColor = style.borderColor,
+	}
+
 	return replaceDefaults({
 		 checkBox = checkBox,
 		 roundFrame = roundFrame,
 		 dropShadow = dropShadow,
 		 tooltip = tooltip,
 		 keyframe = keyframe,
+         timelineTick = timelineTick,
+         timeline = timeline,
 	}, overrides)
 end
