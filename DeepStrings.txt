@@ -4460,6 +4460,7 @@ ComparisonMethod
 ComparisonPsnrThreshold
 Compatibility
 CompatibilityModeSpecularMultiplierDiv100
+CompatibilityUseSpecularMult
 CompileShader
 CompletedTutorials
 CompleterPopupMenuItemClicked
@@ -7398,6 +7399,7 @@ GameSettingsAutoScrollTextBox
 GameSettingsAvatar
 GameSettingsCloseWhenBusyFix
 GameSettingsEnforceMaxThumbnails
+GameSettingsFixMetricConversionLabels
 GameSettingsFixNameWhitespace
 GameSettingsImageUploadingEnabled
 GameSettingsOnlyRejectLargeFiles
@@ -16176,6 +16178,7 @@ StudioReportOSArchToGoogleAnalytics
 StudioResendDisconnectNotificationInterval
 StudioResizeActingPrettyWhackYoLetUsFixThatWeirdRotatedCtrlResi
 StudioResourceId
+StudioResourceWebFactoryRequestPageAsync
 StudioRetinaMacOS
 StudioRigBuilderRojoVersion
 StudioRightClickBuffer

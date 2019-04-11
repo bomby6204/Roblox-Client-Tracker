@@ -382,9 +382,9 @@
         <addaction name="toggleOutputWindowDockAction" style="textbesideicon" icon=":/RibbonBar/images/RibbonIcons/View/Output.png" tooltip="Studio.App.RobloxRibbonMainWindow.OutputFeedOfScripts" text="Studio.App.RBXMainWindow.Output" height="32" width="32"/>
         <addaction name="toggleScriptAnalysisDockAction" style="textbesideicon" icon=":/RibbonBar/images/RibbonIcons/View/Output.png" tooltip="Studio.App.RobloxRibbonMainWindow.ViewScriptAnalysis" height="32" width="32"/>
         <addaction name="viewCommandBarAction" style="textbesideicon" icon=":/RibbonBar/images/RibbonIcons/View/Output.png" tooltip="Studio.App.RBXMainWindow.ViewCommandBar" text="Studio.App.RBXMainWindow.CommandBar" height="32" width="32"/>
-        <addaction debugOnly="true" fflag="LuaDebugger" name="breakpointsDockWidgetAction" style="textbesideicon" icon=":/RibbonBar/images/RibbonIcons/View/Breakpoint.png" tooltip="Studio.App.RobloxRibbonMainWindow.ViewExistingBreakpoints" height="32" width="32"/>
-        <addaction debugOnly="true" fflag="LuaDebugger" name="callStackDockWidgetAction" style="textbesideicon" icon=":/RibbonBar/images/RibbonIcons/View/Call-Stack.png" tooltip="Studio.App.RobloxRibbonMainWindow.ViewCurrentCallStack" height="32" width="32"/>
-        <addaction debugOnly="true" fflag="LuaDebugger" name="watchDockWidgetAction" style="textbesideicon" icon=":/RibbonBar/images/RibbonIcons/Test/Watch-Window.png" tooltip="Studio.App.RobloxRibbonMainWindow.ViewCurrentlyWatchedVariables" height="32" width="32"/>
+        <addaction debugOnly="true" name="breakpointsDockWidgetAction" style="textbesideicon" icon=":/RibbonBar/images/RibbonIcons/View/Breakpoint.png" tooltip="Studio.App.RobloxRibbonMainWindow.ViewExistingBreakpoints" height="32" width="32"/>
+        <addaction debugOnly="true" name="callStackDockWidgetAction" style="textbesideicon" icon=":/RibbonBar/images/RibbonIcons/View/Call-Stack.png" tooltip="Studio.App.RobloxRibbonMainWindow.ViewCurrentCallStack" height="32" width="32"/>
+        <addaction debugOnly="true" name="watchDockWidgetAction" style="textbesideicon" icon=":/RibbonBar/images/RibbonIcons/Test/Watch-Window.png" tooltip="Studio.App.RobloxRibbonMainWindow.ViewCurrentlyWatchedVariables" height="32" width="32"/>
         <addaction name="toggleDiagnosticsDockAction" style="textbesideicon" icon=":/RibbonBar/images/RibbonIcons/View/Diagnostics.png"  tooltip="Studio.App.RobloxRibbonMainWindow.ViewDiagnosticInfo" height="32" width="32"/>
         <addaction name="toggleTaskSchedulerDockAction" style="textbesideicon" icon=":/RibbonBar/images/RibbonIcons/View/Task-Scheduler.png" tooltip="Studio.App.RobloxRibbonMainWindow.ViewTaskExecutionInformation" height="32" width="32"/>
         <addaction name="toggleScriptPerformanceDockAction" style="textbesideicon" icon=":/RibbonBar/images/RibbonIcons/View/Script-Performance.png" tooltip="Studio.App.RobloxRibbonMainWindow.ViewScriptPerformanceInformat" height="32" width="32"/>
@@ -500,7 +500,7 @@
         <addaction name="simulationStopAction" style="textundericon" text="Studio.Common.Action.Pause" icon=":/RibbonBar/images/RibbonIcons/Test/Pause.png" width="32" height="32" />
         <addaction name="simulationResetAction" style="textundericon" text="Studio.Common.Action.Stop" icon=":/RibbonBar/images/RibbonIcons/Test/Stop.png" width="32" height="32"/>
       </Group>
-      <Group name="Debugger" text="Studio.App.RBXMainWindow.Debugger" debugOnly="true" fflag="LuaDebugger">
+      <Group name="Debugger" text="Studio.App.RBXMainWindow.Debugger" debugOnly="true">
         <!--<addaction name="toggleAllBreakpointsStateAction" style="textundericon" icon=":/RibbonBar/images/RibbonIcons/Test/Toggle-Breakpoints.png" tooltip="Enabled/Disable all breakpoints" width="32" height="32"/>-->
         <addaction name="stepIntoAction"  style="textundericon" icon=":/RibbonBar/images/RibbonIcons/Test/Step-In.png" width="32" height="32"/>
         <addaction name="stepOverAction"  style="textundericon" icon=":/RibbonBar/images/RibbonIcons/Test/Step-Over.png" width="32" height="32"/>
