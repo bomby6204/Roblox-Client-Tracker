@@ -5186,9 +5186,9 @@ CurlOption22
 CurlOption32
 CurlOption42
 CurlOption52
-CurlProbe2
 CurlProbe2Fail
 CurlProbe2Pass
+CurlProbe3
 CurlProbePermyriad
 CurlProbeWhat
 CURLSHcode
@@ -8886,6 +8886,7 @@ InfluxReportLocalFilterStringPermyriad
 InfluxReportRCCStatsHundredthsPercentage
 InfluxTattletaleReportCommunitySiftOutputPermyriad
 InfluxTattletaleV2Permyriad
+InfoChanged
 Information
 InformativeText
 InFullScreen
@@ -9875,10 +9876,12 @@ LuaHomeMoveMyFeedToMore
 LuaHomePageEnablePlacesListV1V369
 LuaHomePageShowAddFriendsButtonV361
 LuaHomePeopleListV1V361
+LuaHttpUrlBuilder
 LuaInviteFailOnZeroPlaceId
+LuaInviteGameMockTextLocalization
 LuaInviteGameTextLocalization
 LuaInviteGameUsesInviteThunk
-LuaInviteModalEnabledV373
+LuaInviteModalEnabledV381
 LuaInviteNewAnalytics
 LuaInviteSendsGameLinks
 LuaLibrary
@@ -10014,6 +10017,7 @@ MarshallerType
 MaskFromColor
 MaskWeight
 MassCenterCompensation
+MassUpdate
 MassUpdateAllPackages
 MassUpdateController
 MassUpdateCurrentPlacePackagesVerb
@@ -11304,6 +11308,7 @@ PackageDoesNotHaveID
 PackageErrorCode
 PackageHasUpdateIcon
 PackageIdSerialize
+PackageInfoChanged
 PackageInsert_GameExplorer
 PackageInsert_Toolbox
 PackageLink
@@ -11737,6 +11742,7 @@ PAVManualGlue
 PAVManualWeld
 PAVMarketplaceApiClient
 PAVMarketplaceService
+PAVMassUpdateController
 PAVMassUpdateModel
 PAVMassUpdateWindow
 PAVMaterialTool
@@ -12969,6 +12975,7 @@ QAEXW4TextFormat
 QAEXW4Theme
 QAEXW4TickPosition
 QAEXW4TimerType
+QAEXW4TimeSpec
 QAEXW4ToolBarArea
 QAEXW4ToolButtonPopupMode
 QAEXW4ToolButtonStyle
@@ -13990,6 +13997,7 @@ ReplicatingAbsolutePosition
 ReplicatingAbsoluteSize
 Replication
 ReplicationDataLifetime
+ReplicationEnsureConsistentVariantMemory
 ReplicationFocus
 Replicator
 ReplicatorAdded
@@ -15258,7 +15266,6 @@ SettingsHubInviteReleaseStreamTime
 SettingsHubInviteReleaseStreamTimeAs10
 SettingsHubInviteToGameDefaultThumbnailSize150x150
 SettingsHubInviteToGameThumbnailSize
-SettingsHubInviteToGameThumbnailType
 SettingsLoaded
 SettingsSection
 SettingsToolbar
@@ -16065,7 +16072,6 @@ StudioForcelibGLESv2D3D9
 StudioForceLocale
 StudioGameExplorerMeshCopyTexturePath
 StudioGameExplorerUpdateUniverseName
-StudioGamePageControllerRefactor
 StudioGamePageHandfulSize
 StudioGameSettingsAccessPermissions
 StudioGameSettingsNoMoreGifUploads
@@ -16228,7 +16234,6 @@ StudioTeamCreateEnableKey
 StudioTeamCreateHelpUrl
 StudioTeamCreateJoinSessionCounters
 StudioTeamCreateJoinSessionCounters2
-StudioTeamCreateWidgetRefactor
 StudioTeamTest
 StudioTheme
 StudioThrottleCacheScriptIssueReporting
@@ -16327,6 +16332,7 @@ SUPERSCRIPT_X
 SUPERSCRIPT_Y
 Supplement
 SupportMeshLOD
+SupportMeshLOD_Studio
 SupportMeshPartHeads
 SupportsPresent
 SupportYouTubeInAppDataModelIfRbxCdnAllowed
@@ -18210,6 +18216,7 @@ VManualSurfaceJointInstance
 VManualWeld
 VMarketplaceApiClient
 VMarketplaceService
+VMassUpdateController
 VMassUpdateModel
 VMassUpdateWindow
 VMaterialTool
