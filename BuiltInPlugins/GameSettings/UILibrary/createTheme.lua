@@ -80,6 +80,41 @@ return function(style, overrides)
     	barColor = style.borderColor,
 	}
 
+	local scrollingFrame = {
+		topImage = "rbxasset://textures/StudioToolbox/ScrollBarTop.png",
+		midImage = "rbxasset://textures/StudioToolbox/ScrollBarMiddle.png",
+		bottomImage = "rbxasset://textures/StudioToolbox/ScrollBarBottom.png",
+
+		backgroundColor = style.backgroundColor,
+		scrollbarColor = style.borderColor,
+	}
+
+	local dropdownMenu = {
+		borderColor = style.borderColor,
+		borderImage = "rbxasset://textures/StudioToolbox/RoundedBorder.png",
+	}
+
+	local styledDropdown = {
+		font = style.font,
+
+		backgroundColor = style.backgroundColor,
+		borderColor = style.borderColor,
+		textColor = style.textColor,
+
+		arrowImage = "rbxasset://textures/StudioToolbox/ArrowDownIconWhite.png",
+
+		hovered = {
+			backgroundColor = style.hoveredItemColor,
+			textColor = style.hoveredTextColor,
+		},
+
+		selected = {
+			backgroundColor = style.selectionColor,
+			borderColor = style.selectionBorderColor,
+			textColor = style.selectedTextColor,
+		},
+	}
+
 	return replaceDefaults({
 		 checkBox = checkBox,
 		 roundFrame = roundFrame,
@@ -88,5 +123,8 @@ return function(style, overrides)
 		 keyframe = keyframe,
          timelineTick = timelineTick,
          timeline = timeline,
+		 scrollingFrame = scrollingFrame,
+		 dropdownMenu = dropdownMenu,
+		 styledDropdown = styledDropdown,
 	}, overrides)
 end

@@ -9829,6 +9829,7 @@ LuaAppsPageLoadTimeHome
 LuaAppThumbnailsApiRetryTimeMultiplier
 LuaAppUseGameSetTargetId
 LuaAppUseGraphicWithBorderForPresenceV373
+LuaAppUseLocalizationProvider
 LuaAppUseNewAvatarThumbnailsApi4
 LuaAppUseNewNotificationBadge
 LuaAppUseRedirectedRodux
@@ -10447,6 +10448,7 @@ MinimumSize
 MinimumWidth
 MinkowskiPenetrationDepthSolver
 MinPartsForOptDragging
+MinRadiusAvgQueueWaitTimeMs
 MinSampleShading
 MinSoundStreamSizeBytes
 MinTextSize
@@ -10909,6 +10911,7 @@ NonHumanoid
 NonHumanoidOrphaned
 NONINFRINGEMENT
 NonJsonParseType
+NonMinRadiusAvgQueueWaitTimeMs
 NonNullFrame
 NonReplicatedCSGDictionaryService
 NonSolidFloorPercentForceApplication
@@ -11044,7 +11047,6 @@ OccludeAll
 OccupancyDebugFS
 Ocircumflex
 Ocircumflexsmall
-OConstraint
 Odieresissmall
 OfChildMeshes
 OfClassInfo
@@ -11233,6 +11235,7 @@ OsPlatformId
 OtherBlues
 OtherDisconnect
 Otildesmall
+OUIMinimum
 OutBufferHealth
 OutClusters
 OutDataAppearance
@@ -17013,6 +17016,7 @@ TrackPlayerTextScrapingMaxQueueSize
 TrackPublishingHashOutput
 TrackScriptEditorLocking
 TrackServerPhysicsPerfSessionNMinutes
+TrackStreamItemQueueWaitTime
 TrackWindowsVideoRecording
 Traditional
 TrailFSLight
