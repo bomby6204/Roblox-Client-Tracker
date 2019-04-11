@@ -389,7 +389,6 @@ AluaGameSettingsAction
 AlwaysChangePrimaryPartWithoutWarning
 AlwaysLuau
 AlwaysOnTop
-AlwaysRaiseTextFitsOnText
 ALwd9ATr_RP
 AM_INTERFACESETID_Standard
 AM_KSCATEGORY_AUDIO
@@ -7018,7 +7017,6 @@ FixTimeConversion
 FixTinyFishScales
 FixUIScaleClipRectCalculation
 FixVRScrollingFrames
-FixXmlLargeColor3Serialization
 Fkkkqqqqqq
 FlagCaptured
 FlagCreated
@@ -9825,6 +9823,7 @@ LuaAppSizesWithValidDefaults
 LuaAppsPageLoadTimeGames
 LuaAppsPageLoadTimeHome
 LuaAppThumbnailsApiRetryTimeMultiplier
+LuaAppUseGameSetTargetId
 LuaAppUseGraphicWithBorderForPresenceV373
 LuaAppUseNewAvatarThumbnailsApi4
 LuaAppUseNewNotificationBadge
@@ -14951,7 +14950,6 @@ SelectionToSource
 SelectionUpBrick
 SelectionUpPlate
 SelectionWeld
-SelectiveResortOnLayoutOrder
 SelectMenu
 SelectObject
 SelectOnInsertClicked

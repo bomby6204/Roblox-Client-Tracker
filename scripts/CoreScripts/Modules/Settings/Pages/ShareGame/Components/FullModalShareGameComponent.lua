@@ -22,6 +22,7 @@ function FullModalShareGameComponent:render()
 	}, {
 		screenGui = Roact.createElement("ScreenGui", {
 			Enabled = isVisible,
+			DisplayOrder = -1,
 			ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
 		}, {
 			layoutProvider = Roact.createElement(LayoutProvider, nil, {
