@@ -4147,6 +4147,7 @@ CloudTablesPhase2_TrackLocaleFetchCallsites
 CloudTablesPhase2_UnpublishedStudioRequestFix
 CloudTablesPhase2_WaitForSourceFix
 CloudTablesUtilizeShouldTranslateValue
+CloudTablesUtilizeShouldTranslateValueFix
 CLSID_ACMWrapper
 CLSID_ActiveMovieCategories
 CLSID_AllocPresenter
@@ -6950,6 +6951,7 @@ FixCharacterJitterDownStairs
 FixChatNotAppearingInStudio
 FixCheckSeatTransitionEnabled
 FixCJKLineBreakingSimple
+FixClientDebugger
 FixCoreScriptDebuggerRegisteringScriptTwiceCrash
 FixCountOfUnreadNotificationError
 FixCrashChangingHierarchyInRelayout
@@ -9851,7 +9853,6 @@ LuaChatScreenManagerResumeAndPauseAfterNavigation
 LuaChatSwipeToGoBackFromConversation369
 LuaChatToastRefactor369
 LuaCorrectContextualMenuPosition
-LuaDebugger
 LuaDebuggerBreakOnError
 LuaDebuggerEnabled
 LuaDebuggerEnabledAtStartup
@@ -15438,6 +15439,7 @@ SimilarHipHeightPercentage
 SimpleJson
 Simplified
 SimplifiedAtomicValueFFI2
+SimplifiedChinese
 Simplifier
 SimplifyInGameParameter
 SimplifyRakNetConnectionHandshake
@@ -16043,7 +16045,7 @@ StudioDoNotEndBlockForFunctionArgs
 StudioEnableAvatarImporter
 StudioEnableBetaFeatures
 StudioEnableFbxAnimationImport
-StudioEnableLanguagePreference
+StudioEnableLanguagePreference2
 StudioEnableLuaAPIsForThemes
 StudioEnableWebKitPlugins
 StudioEnsureScriptGuidRegistration2

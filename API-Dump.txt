@@ -4025,9 +4025,9 @@ Enum KeywordFilterType
 Enum Language
 	EnumItem Language.Default : 0
 Enum LanguagePreference
-	EnumItem LanguagePreference.Studio.App.Languages.SystemDefault : 0
+	EnumItem LanguagePreference.SystemDefault : 0
 	EnumItem LanguagePreference.English : 1
-	EnumItem LanguagePreference.ç®€ä½“ä¸­æ–‡ : 2
+	EnumItem LanguagePreference.SimplifiedChinese : 2
 Enum LeftRight
 	EnumItem LeftRight.Left : 0
 	EnumItem LeftRight.Center : 1

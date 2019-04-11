@@ -58015,7 +58015,7 @@
         {
             "Items": [
                 {
-                    "Name": "Studio.App.Languages.SystemDefault",
+                    "Name": "SystemDefault",
                     "Value": 0
                 },
                 {
@@ -58023,7 +58023,7 @@
                     "Value": 1
                 },
                 {
-                    "Name": "ç®€ä½“ä¸­æ–‡",
+                    "Name": "SimplifiedChinese",
                     "Value": 2
                 }
             ],
