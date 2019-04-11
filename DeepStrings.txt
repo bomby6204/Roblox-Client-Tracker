@@ -475,7 +475,7 @@ AngularVelociryLimit
 AngularVelocity
 AngularVelocityAction
 AngularVelocityActuator
-AngularVelocityEnabled2
+AngularVelocityEnabled3
 AniCombinedServerPassthrough
 AnimatedImage
 AnimateLocalKeyframe
